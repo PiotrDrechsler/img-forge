@@ -5,8 +5,8 @@ export default function App() {
   return (
     <View className="flex-1 items-center justify-center bg-white">
       <Text className="text-3xl font-pblack">Index file here!</Text>
-      <Link href="/profile" className="font-normal color-blue-500">
-        Go to Profile
+      <Link href="/home" className="font-normal color-blue-500">
+        Go to Home
       </Link>
     </View>
   );
