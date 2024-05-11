@@ -1,9 +1,15 @@
-import { Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import { Slot, Stack } from "expo-router";
+import "../global.css";
 
-export default function App() {
+const RootLayout = () => {
   return (
-    <View>
-      <Text>Text dsa</Text>
-    </View>
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+    </Stack>
   );
-}
+};
+
+export default RootLayout;
+
+const styles = StyleSheet.create({});
