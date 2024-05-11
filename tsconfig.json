@@ -1,6 +1,6 @@
 {
   "extends": "expo/tsconfig.base",
-  "types": ["webrtc"],
+  "types": ["@types/webrtc"],
   "compilerOptions": {
     "strict": true,
     "paths": {

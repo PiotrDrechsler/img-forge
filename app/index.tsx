@@ -7,9 +7,8 @@ import { images } from "../constants";
 
 export default function App() {
   return (
-    <SafeAreaView className="h-full">
+    <SafeAreaView className="h-full" style={{ backgroundColor: "#161622" }}>
       <ScrollView
-        className="bg-primary"
         contentContainerStyle={{
           height: "100%",
         }}
@@ -42,7 +41,7 @@ export default function App() {
           </View>
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
             Where Creativity Meets Innovation: Embark on a Journey of Limitless
-            Exploration with IMG-FOrRGE
+            Exploration with IMG-FORGE
           </Text>
         </View>
       </ScrollView>
