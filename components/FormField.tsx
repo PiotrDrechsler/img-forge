@@ -1,9 +1,25 @@
 import React, { useState } from "react";
-import { Image, TouchableOpacity, TextInput, View, Text } from "react-native";
+import {
+  Image,
+  TouchableOpacity,
+  TextInput,
+  View,
+  Text,
+  TextInputProps,
+  ViewStyle,
+} from "react-native";
 
 import { icons } from "../constants";
 
-const FormField = ({
+interface FormFieldProps extends TextInputProps {
+  title: string;
+  value: string;
+  placeholder?: string;
+  handleChangeText: (text: string) => void;
+  otherStyles: string;
+}
+
+const FormField: React.FC<FormFieldProps> = ({
   title,
   value,
   placeholder,
