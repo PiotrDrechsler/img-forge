@@ -8,7 +8,7 @@ import FormField from "../../components/FormField";
 import CustomButton from "../../components/CustomButton";
 
 const SignIn = () => {
-  const [form, setForm] = useState({ emai: "", password: "" });
+  const [form, setForm] = useState({ email: "", password: "" });
   const [isSubmitting, setSubmitting] = useState(false);
 
   const submit = () => {
