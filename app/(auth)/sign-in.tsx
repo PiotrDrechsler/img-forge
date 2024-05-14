@@ -22,7 +22,7 @@ const SignIn = () => {
           height: "100%",
         }}
       >
-        <View className="w-full flex justify-center px-4 my-6">
+        <View className="w-full flex justify-center min-h-[95vh] px-4 my-6">
           <Image
             source={images.logo}
             resizeMode="contain"
@@ -58,7 +58,7 @@ const SignIn = () => {
               href="/sign-up"
               className="text-lg font-psemibold text-secondary"
             >
-              Signup
+              Sign up
             </Link>
           </View>
         </View>
